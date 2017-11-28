@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74985" started-at="2017-11-27T03:12:26Z" finished-at="2017-11-27T03:13:41Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="23063" started-at="2017-11-27T03:12:26Z" finished-at="2017-11-27T03:12:49Z">
+      <class name="com.test.TrackoMain">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.test.TrackoMain@3d24753a]" name="setup" is-config="true" duration-ms="16711" started-at="2017-11-27T08:42:26Z" finished-at="2017-11-27T08:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TrackoMain@3d24753a]" name="login" duration-ms="5138" started-at="2017-11-27T08:42:43Z" finished-at="2017-11-27T08:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.TrackoMain@3d24753a]" name="teardown" is-config="true" duration-ms="1176" started-at="2017-11-27T08:42:48Z" finished-at="2017-11-27T08:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.TrackoMain -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="74985" started-at="2017-11-27T03:12:26Z" finished-at="2017-11-27T03:13:41Z">
+      <class name="com.test.TrackoMain">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.test.TrackoMain@380fb434]" name="setup" is-config="true" duration-ms="66394" started-at="2017-11-27T08:42:26Z" finished-at="2017-11-27T08:43:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TrackoMain@380fb434]" name="login" duration-ms="6297" started-at="2017-11-27T08:43:32Z" finished-at="2017-11-27T08:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.TrackoMain@380fb434]" name="teardown" is-config="true" duration-ms="2276" started-at="2017-11-27T08:43:38Z" finished-at="2017-11-27T08:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.TrackoMain -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
